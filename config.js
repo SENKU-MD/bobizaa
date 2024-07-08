@@ -7,18 +7,18 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "201116217452"
 
 global.owner = [
-  ['212717457920', 'bobiza', true],
+  [212658594530', 'AHMEDALIGUE', true],
 
-  ['212717457920','bobiza', true],
+  ['212717457920','bobiza', false],
   ['212717457920'],
   ['212717457920']
 ];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
+global.suittag = [212658594530'];
+global.prems = [212658594530'];
 
 global.packname = 'bobiza bot';
 global.author = 'bobiza';
