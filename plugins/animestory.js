@@ -1,11 +1,11 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
 
-    await conn.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `instagram.com/noureddine_ouafy` }, { quoted: m })
+    await conn.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `Senku عمك` }, { quoted: m })
 }
 
 handler.help = ['animestory']
 handler.tags = ['anime']
-handler.command = /^animestory$/i
+handler.command = /^ايديت$/i
 
 
 export default handler
